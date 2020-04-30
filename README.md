@@ -14,7 +14,7 @@ Base code provided by supervisor
 
 ## Setup
 
-Start with **MakePlots.c**.
+Start with **MakePlots.C**.
 
 ## Preview
 
