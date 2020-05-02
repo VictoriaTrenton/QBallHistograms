@@ -1,7 +1,6 @@
 //**************************************************************************************************************
 //	Filename:		ReadLHE.h
 //	Reviser:		Victoria Trenton
-//	Last update:	Aug. 1, 2012
 // 
 // This is a header file for ReadLHE.C. Before running ReadLHE.C, the user should change
 // kMaxParticle to the appropriate value.
