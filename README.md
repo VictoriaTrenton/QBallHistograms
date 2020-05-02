@@ -2,7 +2,7 @@
 
 ## Description
 
-Project for high-energy physics work term enabled by an Undergraduate Student Research Award (USRA)
+This project was for my high-energy physics work term enabled by an Undergraduate Student Research Award (USRA).
 
 "This project generates formatted histograms measuring the reconstruction efficiency and background rejection of theoretical exotic particles in collisions. It also analyzes event data to distinguish exotic-particle signature from background sources."
 
@@ -10,11 +10,11 @@ Project for high-energy physics work term enabled by an Undergraduate Student Re
 
 Authors: Supervisor & Victoria Trenton
 
-Base code provided by supervisor
+I revised some base code provided by my supervisor.
 
 ## Setup
 
-Start with **MakePlots.C**.
+Start with **GenPlots_MGDY.sh**.
 
 ## Preview
 
