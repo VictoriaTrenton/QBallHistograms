@@ -1,7 +1,6 @@
 //**************************************************************************************************************
 //	Filename:		ReadLHE.C
 //	Reviser:		Victoria Trenton
-//	Last update:	Aug. 24, 2012
 // 
 // This script creates histograms for a particular charge and writes them to an output ROOT file.
 //**************************************************************************************************************
