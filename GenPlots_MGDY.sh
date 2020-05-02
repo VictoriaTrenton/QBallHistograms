@@ -1,9 +1,8 @@
 #!/bin/sh
 
 #***************************************************************************************************************
-#	Filename:		GenPlots_MGDY.sh (MadGraph Drell-Yan)
+#	Filename:	GenPlots_MGDY.sh (MadGraph Drell-Yan)
 #	Author:		Victoria Trenton
-#	Last Update:	Aug. 24, 2012
 # 
 # This script combines ROOT files of the same event and creates histograms for a particular
 # charge in a new ROOT file. A call is made to RunMonoPlots.C to create the histograms.
@@ -127,84 +126,3 @@ for i in ${charge[@]}; do						# Can use @ or *
 	
 	done				# Masses
 done					# Charges
-
-
-
-
-
-
-
-# Code below is commented out
-: << COMMENT
-
-echo 'Default coupling Mass 50 GeV/c^2:'
-echo '  Linking M50 directory'
-rm ntuplesdir 
-ln -s	/work/trenton/MadGraph5_v1_4_5/QBProd6/QBProd6_m050/Events/ ntuplesdir
-echo '  Generating histograms'
-root -l RunMonoPlots.C
-echo '  Moving root & text files'
-mv OUT_histos.root Results/qball6_m050_histos.root
-
-echo 'Default coupling Mass 100 GeV/c^2:'
-echo '  Linking M100 directory'
-rm ntuplesdir 
-ln -s	/work/trenton/MadGraph5_v1_4_5/QBProd6/QBProd6_m100/Events/ ntuplesdir
-echo '  Generating histograms'
-root -l RunMonoPlots.C
-echo '  Moving root & text files'
-mv OUT_histos.root Results/qball6_m100_histos.root
-
-echo 'Default coupling Mass 200 GeV/c^2:'
-echo '  Linking M200 directory'
-rm ntuplesdir 
-#ln -s  /media/ed8e9260-8e40-4dd1-924b-b75fb2a61b92/taylorw/ATLAS/HIPs/datafiles/ntuples/LHE/magcoupl/m200/ ntuplesdir
-#ln -s  /home/taylorw/ATLAS/HIPs/datafiles/ntuples/LHE/magcoupl/m200/ ntuplesdir
-ln -s	/work/trenton/MadGraph5_v1_4_5/QBProd6/QBProd6_m200/Events/ ntuplesdir
-echo '  Generating histograms'
-root -l RunMonoPlots.C
-echo '  Moving root & text files'
-#mv OUT_histos.root Results/magcoupl_m200_histos.root
-mv OUT_histos.root Results/qball6_m200_histos.root
-
-echo 'Default coupling Mass 300 GeV/c^2:'
-echo '  Linking M300 directory'
-rm ntuplesdir 
-ln -s	/work/trenton/MadGraph5_v1_4_5/QBProd6/QBProd6_m300/Events/ ntuplesdir
-echo '  Generating histograms'
-root -l RunMonoPlots.C
-echo '  Moving root & text files'
-mv OUT_histos.root Results/qball6_m300_histos.root
-
-echo 'Default coupling Mass 400 GeV/c^2:'
-echo '  Linking M400 directory'
-rm ntuplesdir 
-ln -s	/work/trenton/MadGraph5_v1_4_5/QBProd6/QBProd6_m400/Events/ ntuplesdir
-echo '  Generating histograms'
-root -l RunMonoPlots.C
-echo '  Moving root & text files'
-mv OUT_histos.root Results/qball6_m400_histos.root
-
-echo 'Default coupling Mass 500 GeV/c^2:'
-echo '  Linking M500 directory'
-rm ntuplesdir 
-#ln -s  /media/ed8e9260-8e40-4dd1-924b-b75fb2a61b92/taylorw/ATLAS/HIPs/datafiles/ntuples/LHE/magcoupl/m500/ ntuplesdir
-#ln -s  /home/taylorw/ATLAS/HIPs/datafiles/ntuples/LHE/magcoupl/m500/ ntuplesdir
-ln -s	/work/trenton/MadGraph5_v1_4_5/QBProd6/QBProd6_m500/Events/ ntuplesdir
-echo '  Generating histograms'
-root -l RunMonoPlots.C
-echo '  Moving root & text files'
-#mv OUT_histos.root Results/magcoupl_m500_histos.root
-mv OUT_histos.root Results/qball6_m500_histos.root
-
-echo 'Default coupling Mass 600 GeV/c^2:'
-echo '  Linking M600 directory'
-rm ntuplesdir 
-ln -s	/work/trenton/MadGraph5_v1_4_5/QBProd6/QBProd6_m600/Events/ ntuplesdir
-echo '  Generating histograms'
-root -l RunMonoPlots.C
-echo '  Moving root & text files'
-mv OUT_histos.root Results/qball6_m600_histos.root
-
-COMMENT
-
