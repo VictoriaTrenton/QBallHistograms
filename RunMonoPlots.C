@@ -1,7 +1,6 @@
 //**************************************************************************************************************
 //	Filename:		RunMonoPlots.C
 //	Reviser:		Victoria Trenton
-//	Last update:	July 19, 2012
 // 
 // This script calls the Loop function of ReadLHE.C for a particular charge.
 //**************************************************************************************************************
