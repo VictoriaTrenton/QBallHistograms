@@ -126,3 +126,7 @@ for i in ${charge[@]}; do						# Can use @ or *
 	
 	done				# Masses
 done					# Charges
+
+
+
+
