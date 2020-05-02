@@ -10,7 +10,7 @@ This project was for my high-energy physics work term enabled by an Undergraduat
 
 Authors: Supervisor & Victoria Trenton
 
-For base code provided by my supervisor, I revised it.
+I revised the base code provided by my supervisor.
 
 ## Setup
 
