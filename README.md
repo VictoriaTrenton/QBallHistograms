@@ -2,7 +2,7 @@
 
 ## Description
 
-This project was for my high-energy physics work term enabled by an Undergraduate Student Research Award (USRA).
+This project was for my high-energy physics work term.
 
 "This project generates formatted histograms measuring the reconstruction efficiency and background rejection of theoretical exotic particles in collisions. It also analyzes event data to distinguish exotic-particle signature from background sources."
 
