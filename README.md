@@ -2,7 +2,7 @@
 
 ## Main Points
 
-•	Designed scripts focusing on readability, usability, and scalability in Linux environment under minimal supervision for proposed Large Hadron Collider experiment
+•	Developed particle-collision analysis scripts focusing on readability, usability, and scalability in Linux environment under minimal supervision for proposed experiment with international collaboration at Large Hadron Collider
 
 •	Generated formatted histograms measuring reconstruction efficiency and background rejection of theoretical exotic particles in collisions using shell and C++ scripts with data-analysis framework (ROOT)
 
